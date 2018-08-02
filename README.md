@@ -5,17 +5,20 @@ Here we will do basic image manipulation detection in Python Version3.6.
 
 Lets first setup virtual environment of python3.6 and then start.
 
-```virtualenv -p python3.6 venv
+```
+virtualenv -p python3.6 venv
 ```
 
 Activate Virtual environment
 
-```source venv/bin/activate
+```
+source venv/bin/activate
 ```
 
 Now we will install packages we need in virtual environment.
 
-```pip install lumpy
+```
+pip install numpy
 pip install script
 python -m pip install image_slicer
 pip install scikit-image
